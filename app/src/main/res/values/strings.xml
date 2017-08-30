@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Listview_Multiplechoicelistener</string>
+    <string name="Airlift">Airlift</string>
+    <string name="Rate">*****</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">Delete</string>
+</resources>

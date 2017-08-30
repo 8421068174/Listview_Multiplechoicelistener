@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/white"/>
+
+        </shape>
+    </item>
+    <!-- OnClick -->
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_activated="true">
+                <shape>
+                    <solid android:color="@color/grey"/>
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp"/>
+
+                </shape>
+            </item>
+            <item android:state_activated="false">
+                <shape >
+                    <solid android:color="@android:color/white"/>
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp"/>
+
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_selected="true">
+                <shape>
+                    <solid android:color="@color/grey"/>
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp"/>
+
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true" >
+                <shape>
+                    <solid android:color="@color/grey"/>
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp"/>
+
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+</layer-list>
